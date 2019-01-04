@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+
+<html lan="en">
+    <head>
+        <meta charset="utf-8">
+
+        <title>GIFtastic</title>
+
+        <link rel="stylesheet" href="assets/style.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0/css/bootstrap.min.css" />
+
+
+    </head>
+
+    <body>
+        <h1>GIFtastic</h1>
+
+        <!-- This form will be where users input data about the movies -->
+    <form id="dog-form">
+            <label for="dog-input">Search for a Dog</label>
+            <input type="text" id="dog-input"><br>
+      
+            <!-- This button will trigger our AJAX call -->
+            <input id="find-dog" type="submit" value="Dog Search">
+          </form>
+      
+          <!-- We'll be dumping our JSON contents in here -->
+          <div id="dog-view"></div>
+
+
+            <script type="text/javascript" src="assets/app.js"> </script>
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    </body>
+
+
+
+</html>
